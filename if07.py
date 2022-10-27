@@ -13,6 +13,7 @@ def main(a):
         string: the message to print
     """
     s = int(a)
+    
     if s>0 and s%2==1 :
         return "positive odd number"
     if s>0 and s%2==0 :
