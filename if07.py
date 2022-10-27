@@ -13,7 +13,7 @@ def main(a):
         string: the message to print
     """
     s = int(a)
-    
+
     if s>0 and s%2==1 :
         return "positive odd number"
     if s>0 and s%2==0 :
@@ -25,4 +25,4 @@ def main(a):
     if s==0:
         return "the number is zero"
 
-print(main(0))
+print(main(10))
