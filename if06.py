@@ -13,4 +13,24 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    x1 = int(a)
+    x2 = int(b) 
+    x3 = int(c)
+
+    if x1>0 and x2>0 and x3>0:
+        return "there are a lot of positive numbers"
+    if x1>0 and x2>0 and x3<0:
+        return "there are a lot of positive numbers"
+    if x1>0 and x3>0 and x2<0:
+        return "there are a lot of positive numbers"
+    if x3>0 and x2>0 and x1<0:
+        return "there are a lot of positive numbers"
+    if x1>0 and x2<0 and x3<0:
+        return "there are a lot of negative numbers"
+    if x1<0 and x2>0 and x3<0:
+        return "there are a lot of negative numbers"
+    if x1<0 and x2<0 and x3>0:
+        return "there are a lot of negative numbers"
+    if x1<0 and x2<0 and x3<0:
+        return "there are a lot of negative numbers"
+    
