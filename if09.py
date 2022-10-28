@@ -10,8 +10,9 @@ def main(a):
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
     s = int(a)
-    if s >= ( (s%10)*10 + s//10 ):
+    if s >= ((s%10)*10 + s//10) and (s>9 and s < 100):
         return "True"
-    if s <= ( (s%10)*10 + s//10 ):
+    if s < ((s%10)*10 + s//10) and (s>9 and s < 100):
         return "False"
-print(main(46))
+
+print(main(66))
