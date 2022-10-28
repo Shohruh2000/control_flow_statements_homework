@@ -12,7 +12,7 @@ def main(a):
     s = int(a)
     if s >= ((s%10)*10 + s//10) and (s>9 and s < 100):
         return "True"
-    if s < ((s%10)*10 + s//10) and (s>9 and s < 100):
+    if s <= ((s%10)*10 + s//10) and (s>9 and s < 100):
         return "False"
 
-print(main(66))
+print(main(68))
